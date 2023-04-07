@@ -1,0 +1,236 @@
+:root {
+    /*Text color*/
+    --basic-color: #2E2F42;
+    --logo-web-color: #4D5AE5;
+    --links-hover-color: #404BBF;
+    --text-color: #434455;
+    --portfolio-button-background-color: #F4F4FD;
+}
+
+/*reset*/
+.list {
+    list-style: none;
+    
+}
+.link {
+    
+    text-decoration: none;
+}
+
+/*hover*/
+.links-hover:hover,
+.links-hover:focus {
+    color: var(--links-hover-color);
+}
+
+.hero-button:hover,
+.topic-button:hover,
+.hero-button:focus,
+.topic-button:focus {
+    background: var(--links-hover-color);
+}
+
+.topic-button:hover,
+.topic-button:focus {
+    color: #FFFFFF;
+}
+/**
+  |============================
+  | STUDIO index.html
+  |============================
+*/
+
+/*==========BODY=============*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+    background-color:#FFFFFF;
+}
+
+/*         /BODY             */
+
+/*==========HEADER=============*/
+
+/*           LOGO              */
+
+.logo-link {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--logo-web-color);
+}
+
+.logo-studio {
+    color: var(--basic-color);
+}
+
+/*         /LOGO             */
+
+/*        MENU/ADDRESS       */
+.menu-link,
+.menu-item {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--basic-color);
+}
+
+.address {
+    font-style: normal;
+}
+.addr-link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+/*       /MENU/ADDRESS       */
+
+/*          /HEADER          */
+
+/*==========MAIN=============*/
+
+/*          HERO             */
+.hero {
+    background: #2E2F42;
+}
+
+.hero-title {
+    font-family: inherit;
+    font-size: 56px;
+    line-height: 1.07;  
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    font-family: inherit;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    cursor: pointer;
+    background: #4D5AE5;
+}
+/*         /HERO             */
+
+/*          ABOUT            */
+
+.about-title,
+.man-title {
+    color: var(--basic-color);
+    font-weight: 500;
+    font-size: 20px;
+    text-align: start;
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.about-text,
+.team-text {
+    color: var(--text-color);
+}
+    
+/*         /ABOUT            */
+
+/*          EXAMPLE          */
+.example-title,
+.team-title {
+    color: var(--basic-color);
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+/*         /EXAMPLE          */
+
+/*          TEAM          */
+.team{
+    background-color: #F4F4FD
+}
+.team-item {
+    background-color:#FFFFFF;
+}
+/*         /TEAM          */
+
+/*           /MAIN           */
+
+/*==========FOOTER=============*/
+.footer-text {
+    color: var(--portfolio-button-background-color);
+}
+
+.page-footer {
+    background-color:var(--basic-color);
+}
+
+.footer-studio {
+    color: #f4f4fd;
+}
+/*         /FOOTER             */
+
+
+/**
+  |============================
+  | PORTFOLIO portfolio.html
+  |============================
+*/
+
+/*==========HEADER=============*/
+
+
+/*         /HEADER             */
+
+/*==========MAIN=============*/
+/*          ABOUT            */
+.topic-button {
+    font-family: inherit;
+    font-weight: 500;
+    color: var(--logo-web-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    cursor: pointer;
+    background: var(--portfolio-button-background-color);
+}
+/*          /ABOUT           */
+
+/*          GALLERY            */
+.gallery-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--basic-color);
+}
+
+.gallery-text {
+    color:var(--text-color);
+}
+/*          /GALLERY            */
+
+/*         /MAIN             */
+
+/*==========FOOTER=============*/
+
+
+/*         /FOOTER             */
