@@ -20,7 +20,7 @@
 .img{
     /* reset empty space beetwen images */
     display: block;
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -205,7 +205,7 @@ body {
 
 .hero {
     background: #2E2F42;
-    padding: 188px;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -329,6 +329,7 @@ body {
 
 .team-text{
     text-align: center;
+    margin-top: 8px;
 }
 /*         /TEAM          */
 
