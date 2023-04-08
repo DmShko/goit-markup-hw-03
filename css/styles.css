@@ -107,6 +107,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.page-header{
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -135,6 +138,8 @@ body {
 /*        MENU/ADDRESS       */
 .menu{
     display: flex;
+    align-items: center;
+    /*^As demand LMS!!!^*/
 }
 .menu-link,
 .menu-item {
