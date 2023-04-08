@@ -78,7 +78,8 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .section{
-    margin-top: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 /**
@@ -123,7 +124,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--logo-web-color);
 
-    margin-right: 75px;
+    margin-right: 76px;
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -175,6 +176,7 @@ body {
 
 .address-list{
     display: flex;
+    gap: 40px;
 }
 
 .addr-link{
@@ -195,19 +197,21 @@ body {
 
 /*          HERO             */
 .hero-container{
-    padding: 188px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 316px;
 }
 
 .hero {
     background: #2E2F42;
+    padding: 188px;
 }
 
 .hero-title {
     width: 496px;
     margin-bottom: 48px;
+    max-width: 496px;
 
     font-family: inherit;
     font-size: 56px;
@@ -215,6 +219,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    
 }
 
 .hero-button {
@@ -227,6 +232,7 @@ body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    min-width: 169px;
   
     background: #4D5AE5;
 }
@@ -263,6 +269,11 @@ body {
 /*         /ABOUT            */
 
 /*          EXAMPLE          */
+
+.example{
+    padding-bottom: 120px;
+}
+
 .example-title,
 .team-title {
     margin-bottom: 72px;
@@ -291,6 +302,7 @@ body {
 /*         /EXAMPLE          */
 
 /*          TEAM          */
+
 .team{
     background-color: #F4F4FD
 }
@@ -298,16 +310,25 @@ body {
     background-color:#FFFFFF;
 }
 
-.team-container{
-    padding-bottom: 120px;
-    padding-top: 120px;
-}
-
 .team-li-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 32px 16px;
+}
+
+.team-item{
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.man-title{
+    text-align: center;
+}
+
+.team-text{
+    text-align: center;
 }
 /*         /TEAM          */
 
