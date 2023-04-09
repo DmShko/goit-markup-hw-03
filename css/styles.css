@@ -446,6 +446,7 @@ body {
 .gallery-containar{
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 /*         /MAIN             */
