@@ -317,6 +317,9 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 32px 16px;
+
+    border: none;
+    border-radius:0 0 4px 4px;
 }
 
 .team-item{
@@ -438,11 +441,11 @@ body {
 
 .gallery-link{
     display: block;
-    border: 1px solid #E7E9FC;
 }
 
 .gallery-containar{
     padding: 32px 16px;
+    border: 1px solid #E7E9FC;
 }
 
 /*         /MAIN             */
