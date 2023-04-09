@@ -5,6 +5,7 @@
     --links-hover-color: #404BBF;
     --text-color: #434455;
     --portfolio-button-background-color: #F4F4FD;
+    --topic-button-border: #E7E9FC;
 }
 
 /*reset*/
@@ -60,6 +61,7 @@ h1,h2,h3,h4,h5,h6,p{
 .topic-button:hover,
 .topic-button:focus {
     color: #FFFFFF;
+    border: 1px solid transparent;
 }
 /*hover end*/
 
@@ -125,7 +127,7 @@ body {
     color: var(--logo-web-color);
 
     margin-right: 76px;
-    display: block;
+    display: inline-block;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -337,8 +339,8 @@ body {
 
 /*==========FOOTER=============*/
 .logo-reset{
-    padding-top: 0;
-    padding-bottom: 16px;
+    padding: 0;
+    margin-bottom: 16px;
 }
 
 .footer-text {
@@ -380,7 +382,7 @@ body {
     letter-spacing: 0.04em;
     padding: 12px 24px;
     cursor: pointer;
-    border: none;
+    border: 1px solid var(--topic-button-border);
     border-radius: 4px;
    
     background: var(--portfolio-button-background-color);
@@ -389,11 +391,17 @@ body {
 .topic-list{
     display: flex;
     justify-content: center;
+    margin-bottom: 72px;
     gap: 24px;
 }
 /*          /ABOUT           */
 
 /*          GALLERY            */
+.samples-works{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .gallery-title {
     font-weight: 500;
     font-size: 20px;
@@ -401,39 +409,39 @@ body {
     letter-spacing: 0.02em;
     color: var(--basic-color);
     max-width: 360px;
+    margin-bottom: 8px;
 }
 
 .gallery-text {
     color:var(--text-color);
-    margin-top: 8px;
     max-width: 360px;
 }
 
-.topic-gallery-container{
-    padding-top: 96px;
-    padding-bottom: 120px;
-}
 /*          /GALLERY            */
 .gallery{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 72px;
-    margin-left: -24px;
+    /* margin-left: -24px; */
     flex-basis: calc(100% / 3);
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
 .gallery-item{
-    margin-left: 24px;
-    margin-bottom: 48px;
-    padding-bottom: 32px;
+    /* margin-left: 24px;
+    margin-bottom: 48px; */
+    width: calc((100% - 48px) / 3);
 
     border-bottom: 1px solid #E7E9FC;
 }
 
+.gallery-link{
+    display: block;
+}
+
 .gallery-containar{
-    margin-top: 32px;
-    padding-left: 16px;
-    }
+    padding: 32px 0 32px 16px;
+}
 
 /*         /MAIN             */
 
