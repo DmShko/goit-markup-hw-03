@@ -187,10 +187,6 @@ body {
     padding-bottom: 24px;
 }
 
-.mailto-container{
-    margin-right: 40px;
-}
-
 /*       /MENU/ADDRESS       */
 
 /*          /HEADER          */
@@ -257,7 +253,6 @@ body {
 .about-text,
 .team-text {
     color: var(--text-color);
-    margin-top: 8px;
 }
   
 .about-text{
@@ -333,7 +328,6 @@ body {
 
 .team-text{
     text-align: center;
-    margin-top: 8px;
 }
 /*         /TEAM          */
 
